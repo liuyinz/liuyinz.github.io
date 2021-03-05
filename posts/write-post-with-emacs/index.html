@@ -5,15 +5,15 @@
 
 	<meta property="og:image" content=""/>
 	<meta property="og:title" content="Write Post With Emacs" />
-<meta property="og:description" content="载入包管理器 leaf(or use-package,etc) ;; leaf @https://github.com/conao3/leaf.el (require &#39;leaf) (eval-and-compile (setq leaf-expand-minimally nil) (setq leaf-defaults &#39;(:ensure nil))) (leaf leaf-keywords :require t :config (leaf-keywords-init)) 载入emacs扩展 easy-hugo ;; easy-hugo @https://github.com/masasam/emacs-easy-hugo (leaf easy-hugo :commands easy-hugo :init (setq easy-hugo-basedir &#34;~/Code/blog/&#34; easy-hugo-postdir &#34;content/posts/&#34; easy-hugo-url &#34;https://liuyinz.github.io/&#34; easy-hugo-preview-url &#34;http://localhost:1313/&#34; easy-hugo-server-flags &#34;-D&#34;) :config ;; HACK search with consult-ripgrep (defun easy-hugo-consult () &#34;Search for blog article with" />
+<meta property="og:description" content="目录 载入包管理器 leaf(or use-package,etc) 载入emacs扩展 easy-hugo 使用步骤 载入包管理器 leaf(or use-package,etc) ;; leaf @https://github.com/conao3/leaf.el (require &#39;leaf) (eval-and-compile (setq leaf-expand-minimally nil) (setq leaf-defaults &#39;(:ensure nil))) (leaf leaf-keywords :require t :config (leaf-keywords-init)) 载入emacs扩展 easy-hugo ;; easy-hugo @https://github.com/masasam/emacs-easy-hugo (leaf easy-hugo :commands easy-hugo :init (setq" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://liuyinz.github.io/posts/write-post-with-emacs/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2021-03-06T00:27:26&#43;08:00" />
-<meta property="article:modified_time" content="2021-03-06T00:27:26&#43;08:00" />
+<meta property="article:modified_time" content="2021-03-06T00:55:12&#43;08:00" />
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Write Post With Emacs"/>
-<meta name="twitter:description" content="载入包管理器 leaf(or use-package,etc) ;; leaf @https://github.com/conao3/leaf.el (require &#39;leaf) (eval-and-compile (setq leaf-expand-minimally nil) (setq leaf-defaults &#39;(:ensure nil))) (leaf leaf-keywords :require t :config (leaf-keywords-init)) 载入emacs扩展 easy-hugo ;; easy-hugo @https://github.com/masasam/emacs-easy-hugo (leaf easy-hugo :commands easy-hugo :init (setq easy-hugo-basedir &#34;~/Code/blog/&#34; easy-hugo-postdir &#34;content/posts/&#34; easy-hugo-url &#34;https://liuyinz.github.io/&#34; easy-hugo-preview-url &#34;http://localhost:1313/&#34; easy-hugo-server-flags &#34;-D&#34;) :config ;; HACK search with consult-ripgrep (defun easy-hugo-consult () &#34;Search for blog article with"/>
+<meta name="twitter:description" content="目录 载入包管理器 leaf(or use-package,etc) 载入emacs扩展 easy-hugo 使用步骤 载入包管理器 leaf(or use-package,etc) ;; leaf @https://github.com/conao3/leaf.el (require &#39;leaf) (eval-and-compile (setq leaf-expand-minimally nil) (setq leaf-defaults &#39;(:ensure nil))) (leaf leaf-keywords :require t :config (leaf-keywords-init)) 载入emacs扩展 easy-hugo ;; easy-hugo @https://github.com/masasam/emacs-easy-hugo (leaf easy-hugo :commands easy-hugo :init (setq"/>
 <script src="https://liuyinz.github.io/js/feather.min.js"></script>
 	
 	<link href="https://liuyinz.github.io/css/fonts.css" rel="stylesheet">
@@ -46,13 +46,17 @@
 			<div class="meta">Posted on Mar 6, 2021</div>
 		</div>
 		
-		<div class="tldr">
-			<strong>tl;dr:</strong>
-			easy-hugo package speedup!
-		</div>
 
 		<section class="body">
-			<h3 id="载入包管理器-leafor-use-packageetc">载入包管理器 leaf(or use-package,etc)</h3>
+			<!-- raw HTML omitted -->
+<p><strong>目录</strong></p>
+<ul>
+<li><a href="#%E8%BD%BD%E5%85%A5%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8-leafor-use-packageetc">载入包管理器 leaf(or use-package,etc)</a></li>
+<li><a href="#%E8%BD%BD%E5%85%A5emacs%E6%89%A9%E5%B1%95-easy-hugo">载入emacs扩展 easy-hugo</a></li>
+<li><a href="#%E4%BD%BF%E7%94%A8%E6%AD%A5%E9%AA%A4">使用步骤</a></li>
+</ul>
+<!-- raw HTML omitted -->
+<h3 id="载入包管理器-leafor-use-packageetc">载入包管理器 leaf(or use-package,etc)</h3>
 <div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-elisp" data-lang="elisp"><span style="color:#080;font-style:italic">;; leaf @https://github.com/conao3/leaf.el</span>
 (<span style="color:#a2f">require</span> <span style="color:#b8860b">&#39;leaf</span>)
 (<span style="color:#a2f">eval-and-compile</span>

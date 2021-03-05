@@ -14,7 +14,7 @@
       <pubDate>Sat, 06 Mar 2021 00:27:26 +0800</pubDate>
       
       <guid>https://liuyinz.github.io/posts/write-post-with-emacs/</guid>
-      <description>载入包管理器 leaf(or use-package,etc) ;; leaf @https://github.com/conao3/leaf.el (require &amp;#39;leaf) (eval-and-compile (setq leaf-expand-minimally nil) (setq leaf-defaults &amp;#39;(:ensure nil))) (leaf leaf-keywords :require t :config (leaf-keywords-init)) 载入emacs扩展 easy-hugo ;; easy-hugo @https://github.com/masasam/emacs-easy-hugo (leaf easy-hugo :commands easy-hugo :init (setq easy-hugo-basedir &amp;#34;~/Code/blog/&amp;#34; easy-hugo-postdir &amp;#34;content/posts/&amp;#34; easy-hugo-url &amp;#34;https://liuyinz.github.io/&amp;#34; easy-hugo-preview-url &amp;#34;http://localhost:1313/&amp;#34; easy-hugo-server-flags &amp;#34;-D&amp;#34;) :config ;; HACK search with consult-ripgrep (defun easy-hugo-consult () &amp;#34;Search for blog article with</description>
+      <description>目录 载入包管理器 leaf(or use-package,etc) 载入emacs扩展 easy-hugo 使用步骤 载入包管理器 leaf(or use-package,etc) ;; leaf @https://github.com/conao3/leaf.el (require &amp;#39;leaf) (eval-and-compile (setq leaf-expand-minimally nil) (setq leaf-defaults &amp;#39;(:ensure nil))) (leaf leaf-keywords :require t :config (leaf-keywords-init)) 载入emacs扩展 easy-hugo ;; easy-hugo @https://github.com/masasam/emacs-easy-hugo (leaf easy-hugo :commands easy-hugo :init (setq</description>
     </item>
     
     <item>

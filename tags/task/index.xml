@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>blog on 食無魚</title>
-    <link>https://liuyinz.github.io/tags/blog/</link>
-    <description>Recent content in blog on 食無魚</description>
+    <title>task on 食無魚</title>
+    <link>https://liuyinz.github.io/tags/task/</link>
+    <description>Recent content in task on 食無魚</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Liuyinz</copyright>
-    <lastBuildDate>Fri, 01 Jan 2021 15:45:22 +0800</lastBuildDate><atom:link href="https://liuyinz.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Jan 2021 15:45:22 +0800</lastBuildDate><atom:link href="https://liuyinz.github.io/tags/task/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2021 TO DO</title>
       <link>https://liuyinz.github.io/posts/2021-to-do/</link>
