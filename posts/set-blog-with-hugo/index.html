@@ -67,8 +67,10 @@ git remote add origin https://github.com/liuyinz/blog.git
 <span style="color:#080;font-style:italic"># 添加github-pages 仓库</span>
 git submodule add https://github.com/liuyinz/liuyinz.github.io.git public
 </code></pre></div><h3 id="设置主题">设置主题</h3>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git submodule add https://github.com/liuyinz/hugo-PaperMod.git themes/papermod
-<span style="color:#080;font-style:italic"># 修改config.yaml</span>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#080;font-style:italic"># 添加主题</span>
+git submodule add https://github.com/athul/archie.git themes/archie
+<span style="color:#080;font-style:italic"># 修改config.toml</span>
+<span style="color:#b8860b">theme</span> <span style="color:#666">=</span> archie
 </code></pre></div><h3 id="撰写首篇博客">撰写首篇博客</h3>
 <div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">hugo new post/set-blog.md
 <span style="color:#080;font-style:italic"># 预览</span>
@@ -76,7 +78,7 @@ git submodule add https://github.com/liuyinz/liuyinz.github.io.git public
 <span style="color:#080;font-style:italic"># 推送</span>
 ./deploy.sh
 </code></pre></div><h3 id="设置-pages-仓库">设置 pages 仓库</h3>
-<p>设置 liuyinz.github.io 仓库，打开 setting，定位至 Github Pages 处，设置为 master</p>
+<p>设置 <code>liuyinz.github.io</code> 仓库, setting -&gt; Github Pages -&gt; <code>master /root</code></p>
 
 		</section>
 
