@@ -49,18 +49,18 @@
 				
 				
 				<section class="list-item">
-					<h1 class="title"><a href="/posts/%E8%BF%9B%E5%BA%A6/">Blog完善进度</a></h1>
-					<time>Nov 30, 2020</time>
+					<h1 class="title"><a href="/posts/write-post-with-emacs/">Write Post With Emacs</a></h1>
+					<time>Mar 6, 2021</time>
 					<br><div class="description">
 						
-						待办事项 添加 搜索按钮 添加 RSS 链接 调整时间格式 调整首页是最新一篇文章 调整 achrive 成为单行显示，后接 tags 侧边栏添加目录 TOC 标签 add RSS&hellip;
+						载入包管理器 leaf(or use-package,etc) ;; leaf @https://github.com/conao3/leaf.el (require &#39;leaf) (eval-and-compile (setq leaf-expand-minimally nil) (setq leaf-defaults &#39;(:ensure nil))) (leaf leaf-keywords :require t :config (leaf-keywords-init)) 载入emacs扩展 easy-hugo ;; easy-hugo @https://github.com/masasam/emacs-easy-hugo (leaf easy-hugo :commands easy-hugo :init (setq easy-hugo-basedir &#34;~/Code/blog/&#34; easy-hugo-postdir &#34;content/posts/&#34; easy-hugo-url &#34;https://liuyinz.github.io/&#34; easy-hugo-preview-url &#34;http://localhost:1313/&#34; easy-hugo-server-flags &#34;-D&#34;) :config ;; HACK search with consult-ripgrep (defun easy-hugo-consult () &#34;Search for blog article with&hellip;
 						
 					</div>
-					<a href="/posts/%E8%BF%9B%E5%BA%A6/">Read more ⟶</a>
+					<a href="/posts/write-post-with-emacs/">Read more ⟶</a>
 				</section>
 				
 				<section class="list-item">
-					<h1 class="title"><a href="/posts/set-blog-with-hugo/">利用HUGO搭建博客</a></h1>
+					<h1 class="title"><a href="/posts/set-blog-with-hugo/">Set Blog With Hugo</a></h1>
 					<time>Nov 25, 2020</time>
 					<br><div class="description">
 						

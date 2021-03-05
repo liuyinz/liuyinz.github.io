@@ -7,22 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Liuyinz</copyright>
-    <lastBuildDate>Mon, 30 Nov 2020 15:45:22 +0800</lastBuildDate><atom:link href="https://liuyinz.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 Mar 2021 00:27:26 +0800</lastBuildDate><atom:link href="https://liuyinz.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>blog</title>
-      <link>https://liuyinz.github.io/tags/blog/</link>
-      <pubDate>Mon, 30 Nov 2020 15:45:22 +0800</pubDate>
+      <title>emacs</title>
+      <link>https://liuyinz.github.io/tags/emacs/</link>
+      <pubDate>Sat, 06 Mar 2021 00:27:26 +0800</pubDate>
       
-      <guid>https://liuyinz.github.io/tags/blog/</guid>
+      <guid>https://liuyinz.github.io/tags/emacs/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>web</title>
-      <link>https://liuyinz.github.io/tags/web/</link>
-      <pubDate>Mon, 30 Nov 2020 15:45:22 +0800</pubDate>
+      <title>hugo</title>
+      <link>https://liuyinz.github.io/tags/hugo/</link>
+      <pubDate>Sat, 06 Mar 2021 00:27:26 +0800</pubDate>
       
-      <guid>https://liuyinz.github.io/tags/web/</guid>
+      <guid>https://liuyinz.github.io/tags/hugo/</guid>
       <description></description>
     </item>
     
@@ -32,15 +32,6 @@
       <pubDate>Wed, 25 Nov 2020 08:17:41 +0800</pubDate>
       
       <guid>https://liuyinz.github.io/tags/github/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>hugo</title>
-      <link>https://liuyinz.github.io/tags/hugo/</link>
-      <pubDate>Wed, 25 Nov 2020 08:17:41 +0800</pubDate>
-      
-      <guid>https://liuyinz.github.io/tags/hugo/</guid>
       <description></description>
     </item>
     

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>食無魚</title>
-    <link>https://liuyinz.github.io/</link>
-    <description>Recent content on 食無魚</description>
+    <title>emacs on 食無魚</title>
+    <link>https://liuyinz.github.io/tags/emacs/</link>
+    <description>Recent content in emacs on 食無魚</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Liuyinz</copyright>
-    <lastBuildDate>Sat, 06 Mar 2021 00:27:26 +0800</lastBuildDate><atom:link href="https://liuyinz.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 Mar 2021 00:27:26 +0800</lastBuildDate><atom:link href="https://liuyinz.github.io/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Write Post With Emacs</title>
       <link>https://liuyinz.github.io/posts/write-post-with-emacs/</link>
@@ -15,15 +15,6 @@
       
       <guid>https://liuyinz.github.io/posts/write-post-with-emacs/</guid>
       <description>载入包管理器 leaf(or use-package,etc) ;; leaf @https://github.com/conao3/leaf.el (require &amp;#39;leaf) (eval-and-compile (setq leaf-expand-minimally nil) (setq leaf-defaults &amp;#39;(:ensure nil))) (leaf leaf-keywords :require t :config (leaf-keywords-init)) 载入emacs扩展 easy-hugo ;; easy-hugo @https://github.com/masasam/emacs-easy-hugo (leaf easy-hugo :commands easy-hugo :init (setq easy-hugo-basedir &amp;#34;~/Code/blog/&amp;#34; easy-hugo-postdir &amp;#34;content/posts/&amp;#34; easy-hugo-url &amp;#34;https://liuyinz.github.io/&amp;#34; easy-hugo-preview-url &amp;#34;http://localhost:1313/&amp;#34; easy-hugo-server-flags &amp;#34;-D&amp;#34;) :config ;; HACK search with consult-ripgrep (defun easy-hugo-consult () &amp;#34;Search for blog article with</description>
-    </item>
-    
-    <item>
-      <title>Set Blog With Hugo</title>
-      <link>https://liuyinz.github.io/posts/set-blog-with-hugo/</link>
-      <pubDate>Wed, 25 Nov 2020 08:17:41 +0800</pubDate>
-      
-      <guid>https://liuyinz.github.io/posts/set-blog-with-hugo/</guid>
-      <description>目录 安装并准备环境 设置主题 撰写首篇博客 设置 pages 仓库 安装并准备环境 brew install hugo # 初始化 hugo new site blog cd blog &amp;amp;&amp;amp; git init # 添加源仓库 git remote add origin https://github.com/liuyinz/blog.git # 添加github-pa</description>
     </item>
     
   </channel>
