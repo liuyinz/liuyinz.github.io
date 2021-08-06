@@ -14,7 +14,7 @@
       <pubDate>Wed, 25 Nov 2020 08:17:41 +0800</pubDate>
       
       <guid>https://liuyinz.github.io/posts/set-blog-with-hugo/</guid>
-      <description>目录 安装并准备环境 设置主题 撰写首篇博客 设置 pages 仓库 安装并准备环境 brew install hugo # 初始化 hugo new site blog cd blog &amp;amp;&amp;amp; git init # 添加源仓库 git remote add origin https://github.com/liuyinz/blog.git # 添加github-pa</description>
+      <description>安装并准备环境 brew install hugo # 初始化 hugo new site blog cd blog &amp;amp;&amp;amp; git init # 添加源仓库 git remote add origin https://github.com/liuyinz/blog.git # 添加github-pages 仓库 git submodule add https://github.com/liuyinz/liuyinz.github.io.git public 设置主题 # 添加主题 git submodule add https://github.com/athul/archie.git themes/archie</description>
     </item>
     
   </channel>
